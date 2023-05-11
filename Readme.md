@@ -49,7 +49,7 @@ Further reviewing the code, we also found the `header` section which was incorre
     * We added elements such as `figure` for images & images with captions
     * Added the `section` elements to correctly group the code
     * Added `alt` attribute for easy identification of the image
-    * Replaced `<p></p>` with `<figcaption></figcaption>` because this is a caption which describes the image
+    * Replaced `<p></p>` with `<article></article>` because this is a caption which describes the image
 
     ```
        <aside class="benefits">
