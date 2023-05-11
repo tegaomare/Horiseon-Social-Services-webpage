@@ -58,12 +58,12 @@ Further reviewing the code, we also found the `header` section which was incorre
         </article>
 * **Reviewing & Revising Header element**
     * We corrected the order of the header by placing `<title>website</title>` before we link to a stylesheet
-    * Replaced placeholder title and added a new descriptive title: `Horiseon Social Solution Services, Inc.
+    * Replaced placeholder title and added a new descriptive title: `Horiseon Social Services.
 
     ```
     <head>
         <meta charset="UTF-8" />
-        <title>Horiseon Social Solution Services</title>
+        <title>Horiseon Social Services</title>
         <link rel="stylesheet" href="./assets/css/style.css">
     </head>
     ```
