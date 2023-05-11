@@ -52,16 +52,14 @@ Further reviewing the code, we also found the `header` section which was incorre
     * Replaced `<p></p>` with `<figcaption></figcaption>` because this is a caption which describes the image
 
     ```
-        <section class="benefits">
-        <figure class="benefit-lead">
+       <aside class="benefits">
+        <article class="benefit-lead">
             <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" alt="placeholder stock image" />
-            <figcaption>
+            <img src="./assets/images/lead-generation.png" alt = "lead-generation"/> 
+            <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
-            </figcaption>
-        </figure>
-    ```
-
+            </p>
+        </article>
 * **Reviewing & Revising Header element**
     * We corrected the order of the header by placing `<title>website</title>` before we link to a stylesheet
     * Replaced placeholder title and added a new descriptive title: `Horiseon Social Solution Services, Inc.
@@ -69,7 +67,7 @@ Further reviewing the code, we also found the `header` section which was incorre
     ```
     <head>
         <meta charset="UTF-8" />
-        <title>Horiseon Social Solution Services, Inc.</title>
+        <title>Horiseon Social Solution Services</title>
         <link rel="stylesheet" href="./assets/css/style.css">
     </head>
     ```
