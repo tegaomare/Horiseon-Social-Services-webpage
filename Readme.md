@@ -1,9 +1,5 @@
 # Horiseon Social Solution Services, Inc.
 
-<!-- ![Horiseon Logo](./assets/images/logo.PNG) -->
-
-<img src="./assets/images/logo.PNG" alt="Horiseon Logo" width=40% height=40%>
-
 ## About This Webpage
 - - - -
 This webpage is the homepage of Horiseon Social Services, Inc. Horiseon is a company that provides services regarding `Social Media Marketing`, `Search Engine Optimization`, and `Online Reputation Management`
