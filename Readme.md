@@ -1,8 +1,8 @@
-# Horiseon Social Solution Services, Inc.
+# Horiseon Social Services.
 
 ## About This Webpage
 - - - -
-This webpage is the homepage of Horiseon Social Services, Inc. Horiseon is a company that provides services regarding `Social Media Marketing`, `Search Engine Optimization`, and `Online Reputation Management`
+This webpage is the homepage of Horiseon Social Services. Horiseon is a company that provides services regarding `Social Media Marketing`, `Search Engine Optimization`, and `Online Reputation Management`
 
 ## Sourcecode Problems
 - - - -
@@ -71,4 +71,4 @@ Further reviewing the code, we also found the `header` section which was incorre
 ## Conclusion
 - - - -
 
-After reviewing our criteria and making the neccessary changes, we have now relaunched the site which is available to view at: https://kankanrr.github.io/hw1-code-refactor/
+After reviewing our criteria and making the neccessary changes, we have now relaunched the site which is available to view.
