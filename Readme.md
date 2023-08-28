@@ -1,74 +1,54 @@
 # Horiseon Social Services.
+<img src="./assets/images/webpage.png" href="image of the webpage">
 
-## About This Webpage
-- - - -
-This webpage is the homepage of Horiseon Social Services. Horiseon is a company that provides services regarding `Social Media Marketing`, `Search Engine Optimization`, and `Online Reputation Management`
+## Description
 
-## Sourcecode Problems
-- - - -
+Horiseon Social Services provides top-notch services in the realm of `Social Media Marketing`, `Search Engine Optimization`, and `Online Reputation Management`. This README outlines key features, installation instructions, usage guidelines, contribution details, and licensing information.
 
-While working with this company, upon reviewing their sourcecode we were left with errors within the HTML code. Our criteria to fix this problem is as followed:
+## Features
 
-* **View the source code to find HTML elements** - To make sure the webpage's source exists with HTML elements
-* **Review & Revise HTML structure** - This is to make sure the structure is followed logically
-* **Review & Revise image alt attributes** - Makes sure images are correctly identifiable in the code
-* **Correct header content & add title** - The header content in the code needs to be in sequential order and a title for the page must be added
+- **Social Media Marketing**: Enhance your online presence through strategic social media campaigns.
+- **Search Engine Optimization**: Boost your website's visibility in search engine results.
+- **Online Reputation Management**: Manage and maintain your online brand image effectively.
 
-### Finding The Errors
+## Installation
 
-Upon reviewing the code we did find `HTML elements`. However, the structure was incorrect and the `image attributes` showed up missing as show below:
+1. Clone this repository to your local machine using:
+   ```bash
+   git clone  git@github.com:tegaomare/Horiseon-Social-Services-webpage.git
+Navigate to the project directory:
 
-```
-    <div class="benefits">
-        <div class="benefit-lead">
-            <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" />
-            <p>
-                Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
-            </p>
-        </div>
-```
+bash
 
-Further reviewing the code, we also found the `header` section which was incorrectly ordered and missing a unique descriptive title as show below:
+Copy code
 
-```
-<head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
-</head>
-```
+cd horiseon-social-services
 
-### Approaching the problems
+Open the index.html file in your preferred web browser.
 
-* **Replacing placeholder `div`(s) to add correct element information**
-    * We added elements such as `figure` for images & images with captions
-    * Added the `section` elements to correctly group the code
-    * Added `alt` attribute for easy identification of the image
-    * Replaced `<p></p>` with `<article></article>` because this is a caption which describes the image
+## Usage
+Explore the Horiseon Social Services website to gain insights into the world of social media marketing, search engine optimization, and online reputation management. Discover valuable information and tips to leverage these services for your business's success.
 
-    ```
-       <aside class="benefits">
-        <article class="benefit-lead">
-            <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" alt = "lead-generation"/> 
-            <p>
-                Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
-            </p>
-        </article>
-* **Reviewing & Revising Header element**
-    * We corrected the order of the header by placing `<title>website</title>` before we link to a stylesheet
-    * Replaced placeholder title and added a new descriptive title: `Horiseon Social Services.
+## Contributing
+We welcome contributions from the community to enhance the functionality and content of the Horiseon Social Services website. If you have improvements to suggest, please follow these steps:
 
-    ```
-    <head>
-        <meta charset="UTF-8" />
-        <title>Horiseon Social Services</title>
-        <link rel="stylesheet" href="./assets/css/style.css">
-    </head>
-    ```
+Fork the repository.
 
-## Conclusion
-- - - -
+Create a new branch for your feature: git checkout -b feature/your-feature-name.
 
-After reviewing our criteria and making the neccessary changes, we have now relaunched the site which is available to view.
+Commit your changes: git commit -m 'Add some feature'.
+
+Push to the branch: git push origin feature/your-feature-name.
+
+Open a pull request describing your changes.
+
+## License
+This project is licensed under the MIT License.
+
+## Credits
+Columbia University Coding Bootcamp
+
+## Page link
+https://tegaomare.github.io/Horiseon-Social-Services-webpage/
+
+
